@@ -1,0 +1,29 @@
+[project]
+name = "news-articles-classifier"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Aleksa Mihajlovic",email = "mihajlovic.aleksa@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "nltk (>=3.9.2,<4.0.0)",
+    "sentence-transformers (>=5.1.2,<6.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "xgboost (>=3.1.1,<4.0.0)",
+    "ipykernel (>=7.1.0,<8.0.0)"
+]
+
+[tool.poetry]
+package-mode = false 
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
