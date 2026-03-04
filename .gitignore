@@ -5,3 +5,9 @@
 *.lock
 
 **/.venv
+
+mlflow.db
+mlruns/
+mlartifacts/
+
+cis-fraud-detection/data/
