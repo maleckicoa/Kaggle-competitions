@@ -1,0 +1,59 @@
+feature,description,type
+TransactionID,Unique identifier of transaction,ID/categorical
+TransactionDT,Time elapsed since reference point in seconds,numerical
+TransactionAmt,Transaction amount,numerical
+ProductCD,Product/payment channel category,categorical
+card1,Card issuer or account identifier,categorical
+card2,Additional card identifier,categorical
+card3,Card country or card type code,categorical
+card4,Card network such as Visa or Mastercard,categorical
+card5,Bank identifier,categorical
+card6,Card type such as debit or credit,categorical
+addr1,Billing region code,categorical
+addr2,Billing country or region code,categorical
+dist1,Distance between billing address and IP or device location,numerical
+dist2,Secondary distance metric,numerical
+P_emaildomain,Purchaser email domain,categorical
+R_emaildomain,Recipient email domain,categorical
+C1–C14,Aggregated transaction count features,numerical
+D1–D15,Time delta features representing days since events,numerical
+M1,Binary match indicators such as address or card match,categorical
+M2,Binary match indicators such as address or card match,categorical
+M3,Binary match indicators such as address or card match,categorical
+M4,Binary match indicators such as address or card match,categorical
+M5,Binary match indicators such as address or card match,categorical
+M6,Binary match indicators such as address or card match,categorical
+M7,Binary match indicators such as address or card match,categorical
+M8,Binary match indicators such as address or card match,categorical
+M9,Binary match indicators such as address or card match,categorical
+V1–V339,Anonymous engineered behavioral features from fraud detection system,numerical
+id_01–id_11,Identity risk scores and behavioral metrics,numerical
+id_12,Identity verification flags,categorical
+id_13,Identity verification flags,categorical
+id_14,Identity verification flags,categorical
+id_15,Identity verification flags,categorical
+id_16,Identity verification flags,categorical
+id_17,Device or identity codes,categorical
+id_18,Device or identity codes,categorical
+id_19,Device or identity codes,categorical
+id_20,Device or identity codes,categorical
+id_21,Browser or device identifiers,categorical
+id_21,Browser or device identifiers,categorical
+id_22,Browser or device identifiers,categorical
+id_23,Browser or device identifiers,categorical
+id_24,Browser or device identifiers,categorical
+id_25,Browser or device identifiers,categorical
+id_27,Security or verification flags,categorical
+id_28,Security or verification flags,categorical
+id_29,Security or verification flags,categorical
+id_30,Operating system,categorical
+id_31,Browser name,categorical
+id_32,Screen resolution or device size,categorical
+id_33,Screen resolution category,categorical
+id_34,Browser configuration indicator,categorical
+id_35,Device verification flags,categorical
+id_36,Device verification flags,categorical
+id_37,Device verification flags,categorical
+id_38,Device verification flags,categorical
+DeviceType,Device category mobile or desktop,categorical
+DeviceInfo,Device model or operating system string,categorical
