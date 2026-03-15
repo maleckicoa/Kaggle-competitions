@@ -38,11 +38,11 @@ id_18,Device or identity codes,categorical
 id_19,Device or identity codes,categorical
 id_20,Device or identity codes,categorical
 id_21,Browser or device identifiers,categorical
-id_21,Browser or device identifiers,categorical
 id_22,Browser or device identifiers,categorical
 id_23,Browser or device identifiers,categorical
 id_24,Browser or device identifiers,categorical
 id_25,Browser or device identifiers,categorical
+id_26,Browser or device identifiers,categorical
 id_27,Security or verification flags,categorical
 id_28,Security or verification flags,categorical
 id_29,Security or verification flags,categorical
