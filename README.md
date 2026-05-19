@@ -9,3 +9,12 @@ data: https://www.kaggle.com/code/therealsampat/fake-news-detection
 
 ## Shop Sales Predictions
 data: https://www.kaggle.com/competitions/rossmann-store-sales/data
+
+
+## German Credit Risk
+data: https://www.kaggle.com/datasets/uciml/german-credit
+
+
+## cis-fraud-detection
+data: https://www.kaggle.com/competitions/ieee-fraud-detection
+

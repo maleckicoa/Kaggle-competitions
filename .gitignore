@@ -10,4 +10,4 @@ mlflow.db
 mlruns/
 mlartifacts/
 
-cis-fraud-detection/data/
+cis-fraud-detection(in-progress)/data/
